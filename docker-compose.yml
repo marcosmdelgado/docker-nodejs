@@ -2,7 +2,9 @@ version: '2'
 services:
   app:
     build: .
-    image: este_e_um_test
+    image: image_test_marcos
     tty: true
     ports:
       - '3000:3000'
+
+    
